@@ -1,0 +1,8 @@
+涉及到的开源项目：
+https://github.com/dotnet-architecture/eShopOnContainers
+https://github.com/ThreeMammals/Ocelot 
+https://github.com/abpframework/abp 
+https://github.com/geffzhang/FeatureToggleDemo 
+
+代码规范
+https://github.com/NanoFabricFX/clean-code-dotnet
