@@ -1,149 +1,152 @@
-tfs��192.168.10.19 8080
-��װ����192.168.3.3
+tfs：192.168.10.19 8080
+安装包：192.168.3.3
 
-���ݿ�
+数据库
 39.96.69.194_3306
 39.96.69.194
 root
 1234QWER!@#$
 
-git�˺ţ�
+git账号：
 xianghq
 
 jh-xhq  Jinher!@#01
-���ݻ�
+堡垒机
 39.105.6.179:63389
 
-arcsoft�˺����룺jhwl@jinher.com      Jinher401
+arcsoft账号密码：jhwl@jinher.com      Jinher401
 
 
-ԭ��  
-http://192.168.10.131/portal/#g=1&p=�û������pc��
+原型  
+http://192.168.10.131/portal/#g=1&p=用户组管理pc端
 
-openapiԭ��
+openapi原型
 http://192.168.10.131/portal
 
 http://dss.iuoooo.com:82/Home/DssReport1
 
-Jmeter ѹ�����Թ���
+Jmeter 压力测试工具
 
-68ҳ
+68页
 
 http://testapollo.iuoooo.com:8070
 
 http://ops.iuoooo.com
 admin 123
 
-openapi�ĵ���
+openapi文档新
 https://www.zybuluo.com/anyedage/note/1534861
 
-�������  ������ 252                 �������redis-cli -p 5371
-���Է�����78      �������redis-cli -p 6371
+清除缓存  服务器 252                 链接命令：redis-cli -p 5371
+测试服务器78      链接命令：redis-cli -p 6371
 D:\G3\redis>redis-cli -p 6371
 flushall
 
 redis-cli -h localhost -p 6371
 
-������
+生产：
 redis-cli -h r-2ze6jkhkkbiwgc65o5.redis.rds.aliyuncs.com -p 6379 -a lfNAjL%zd6ZR
 DEL runoobkey
 
-ѹ�ⱨ��ŵ����λ��
-G3\01-AMP\������\16-����ĵ�\04-ѹ�ⱨ��
+压测报告放到这个位置
+G3\01-AMP\开发库\16-编程文档\04-压测报告
 
-mantis bug����ϵͳ
+mantis bug管理系统
 http://192.168.10.128:90/mantis/view_all_bug_page.php
 
 18911760600
 
-Swagger��ַ
+Swagger地址
 http://testapi.iuoooo.com/ebc.api/swagger/index.html
 
-�׽ݣ�15811135700 houguar888
+易捷：15811135700 houguar888
 
 HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\HTTP\Parameters
+
+CQ-103-01549252
+
 
 
 https://testgportal.iuoooo.com/jc6/platform/sys/login!portal.action?lang=zh_CN
 
 
-portalԭ�ͣ�http://192.168.10.131/portal/
+portal原型：http://192.168.10.131/portal/
 
 
 http://ebc.iuoooo.com/Jinher.AMP.EBC.BP.FeatureInfoBP.svc/RegisterFeature
 http://api.iuoooo.com/ebc.api/api/health
 
-//sql��shell��jQuery�����ֵ�
+//sql、shell、jQuery在线字典
 http://www.jq-school.com/api/index.html
 
 C:\Windows\System32\inetsrv\config
-iis�󶨵�ַ
+iis绑定地址
 
-����ϵͳ���ò˵���
-D:\g4\Portal\20190909\Configuration\Applications SysMenuType.xml�ļ����Ӳ˵�code
-D:\g4\Portal\20190909\Configuration\Applications\SysMenu uniteadmin.xml ���Ӳ˵��ڵ�
-��ģ�����Ӳ˵�
-portal-��Ӫƽ̨-��֯�˵�һ���޸�������֯id
-Сģ�����Ӳ˵�
+添加系统设置菜单：
+D:\g4\Portal\20190909\Configuration\Applications SysMenuType.xml文件添加菜单code
+D:\g4\Portal\20190909\Configuration\Applications\SysMenu uniteadmin.xml 添加菜单节点
+大模板添加菜单
+portal-运营平台-组织菜单一键修复添加组织id
+小模版添加菜单
 
 
-��ʱ��ͼʱ���漰7��Ԫ�أ���ɫ(Actor)������(Object)��������(LifeLine)�����ƽ���(Activation)����Ϣ(Message)���Թ�����Ϣ�����Ƭ��
+画时序图时会涉及7种元素：角色(Actor)、对象(Object)、生命线(LifeLine)、控制焦点(Activation)、消息(Message)、自关联消息、组合片段
 
-b��ȷ����������Ѿ�����
+b、确保ｓｓｈ代理已经运行
 
-    $��eval "$(ssh-agent -s)"
-    ��Agent pid 59566���ں�̨�����ӣӣȴ���
+    $　eval "$(ssh-agent -s)"
+    ＞Agent pid 59566　在后台启动ＳＳＨ代理
 
-�㡢���ӣӣӣ�˽Կ���ӣӣȴ���
+ｃ、添加ＳＳＨ私钥到ＳＳＨ代理
 
 $ ssh-add ~/.ssh/id_rsa
 
-sonarִ�в��裺
+sonar执行步骤：
 "D:\work\sonar-scanner-msbuild-4.3.1.1372-net46\SonarScanner.MSBuild.exe" begin /k:"EBC" /n:"EBC" /v:"3.0"
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe" /t:Rebuild
 "D:\work\sonar-scanner-msbuild-4.3.1.1372-net46\SonarScanner.MSBuild.exe" end
 
-Kettle Spoon���
+Kettle Spoon简介
 
-     ETL��Extract-Transform-Load����д�������ݳ�ȡ��ת����װ�صĹ��̣���������ҵ����ҵӦ����˵�����Ǿ����������������ݵĴ�����ת����Ǩ�ƣ��˽Ⲣ����һ��etl���ߵ�ʹ�ã��ز����٣�֧��ͼ�λ���GUI��ƽ��棬Ȼ������Թ���������ʽ��ת������һЩ�򵥻��ӵ����ݳ�ȡ��������⡢������ϴ������ת�������ݹ��˵ȷ������űȽ��ȶ��ı��֣�ʹ���������˷ǳ�����з�����������������ǵĹ���Ч�ʡ�
-��������������������������������
-��Ȩ����������ΪCSDN������liaomin416100569����ԭ�����£���ѭ CC 4.0 BY-SA ��ȨЭ�飬ת���븽��ԭ�ĳ������Ӽ���������
-ԭ�����ӣ�https://blog.csdn.net/liaomin416100569/java/article/details/82798879
+     ETL（Extract-Transform-Load的缩写，即数据抽取、转换、装载的过程），对于企业或行业应用来说，我们经常会遇到各种数据的处理，转换，迁移，了解并掌握一种etl工具的使用，必不可少，支持图形化的GUI设计界面，然后可以以工作流的形式流转，在做一些简单或复杂的数据抽取、质量检测、数据清洗、数据转换、数据过滤等方面有着比较稳定的表现，使用它减少了非常多的研发工作量，提高了我们的工作效率。
+————————————————
+版权声明：本文为CSDN博主「liaomin416100569」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/liaomin416100569/java/article/details/82798879
 
 
-jmeterִ�в��Լƻ��ű�
+jmeter执行测试计划脚本
 jmeter -n -t testplan/RedisLock.jmx -l testplan/result/result.txt -e -o testplan/webreport
-testplan/RedisLock.jmx Ϊ���Լƻ��ļ�·��
-testplan/result/result.txt Ϊ���Խ���ļ�·��
-testplan/webreport Ϊweb���汣��·����
+testplan/RedisLock.jmx 为测试计划文件路径
+testplan/result/result.txt 为测试结果文件路径
+testplan/webreport 为web报告保存路径。
 
-����Image����������Container���Ĺ�ϵ����������������������е����ʵ��һ���������Ǿ�̬�Ķ��壬�����Ǿ�������ʱ��ʵ�塣�������Ա�������������ֹͣ��ɾ������ͣ��
-Linux Container��Ҫ��Namespace��Cgroup�����������֤ʵ��
-Namespace������
-Cgroup������Դ������������
-docker search XXX ��������������
-docker pull XXX �����ؾ���
+镜像（Image）和容器（Container）的关系，就像是面向对象程序设计中的类和实例一样，镜像是静态的定义，容器是镜像运行时的实体。容器可以被创建、启动、停止、删除、暂停等
+Linux Container主要由Namespace和Cgroup两大机制来保证实现
+Namespace做隔离
+Cgroup负责资源管理控制作用
+docker search XXX 命令来搜索镜像
+docker pull XXX 来下载镜像
 
-AccountSrc_Value��16 cbc�˺����� ������ô���
+AccountSrc_Value：16 cbc账号类型 社会信用代码
 
 http://api.iuoooo.com/ebc.api/Jinher.AMP.EBC.BP.EmployeeBP.svc/GetEmployeeForMobile
 http://api.iuoooo.com/ebc.api/Jinher.AMP.EBC.Api.OperateFunction.svc/GetFunctionDataRange
 
-��ͷ����Ч�غ���base64������������ǩ��
+将头和有效载荷用base64编码后加密生成签名
 HMACSHA256(base64UrlEncode(header) + "." + base64UrlEncode(payload),secret)
-�ͻ��˽��շ��������ص�JWT������洢��Cookie��localStorage�С�
-��������洢��Cookie�У��Ϳ����Զ����ͣ����ǲ������
+客户端接收服务器返回的JWT，将其存储在Cookie或localStorage中。
+如果将它存储在Cookie中，就可以自动发送，但是不会跨域。
 
 
 emgu.cv
 
-TPS��Transactions Per Second����˼��ÿ��������,Խ��Խ��
-QPS��Queries Per Second����˼��ÿ���ѯ�ʣ���һ̨������ÿ���ܹ���Ӧ�Ĳ�ѯ������Խ��Խ��
+TPS：Transactions Per Second：意思是每秒事务数,越多越好
+QPS：Queries Per Second：意思是每秒查询率，是一台服务器每秒能够响应的查询次数，越多越好
 
-���Լ��ܡ���������������̶�EIS
+电脑加密、监控软件：天锐绿盾EIS
 
-��������������-->����������-->www.google.com�������Ķ����ǿͻ���
-���������������˷�������Ӧ�ͻ������󣬴����Ķ����Ƿ���ˡ�
+正向代理：浏览器-->代理服务器-->www.google.com，代理的对象是客户端
+反向代理：代理后端服务器响应客户端请求，代理的对象是服务端。
 
 
 if (retCode == 28676)
@@ -151,4 +154,7 @@ if (retCode == 28676)
 retCode = ASFFunctions.ASFActivation(appId, "GTDzX5ga4MhJjMGYohaZnHfxYRgk6HTcUYXFyZMVaARJ");
 }
 
-Ĭ�ϵ�IoC��������һЩС�͵���Ŀ�������ã����ṩ�˻�����AddXXXX��������ʵ����ϵ�����Ƕ��ڴ�����Ŀ��˵������ͦ���ѵģ����͵���Ŀ��Ҫ����ͨ�õ�ע�ᣬ�������ֶ�����ÿ������Ľ�����ϵ��������������ٵ�ʹ�㡣
+IQueryable<T> 是将Skip ,take 这些方法表达式翻译成T-SQL语句之后再向SQL服务器发送命令，它并不是把所有数据都加载到内存里来才进行条件过滤。
+IEnumerable跑的是Linq to Object，强制从数据库中读取所有数据到内存先。
+
+默认的IoC容器对于一些小型的项目基本够用，它提供了基本的AddXXXX方法来绑定实例关系，但是对于大型项目来说，还是挺困难的，大型的项目需要的是通用的注册，不可能手动添加每个对象的解析关系，这才是我们面临的痛点。
